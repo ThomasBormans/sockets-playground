@@ -1,0 +1,143 @@
+{
+    // http://jscs.info/rule/disallowKeywords
+    "disallowKeywords": ["with"],
+
+    // http://jscs.info/rule/disallowKeywordsOnNewLine
+    "disallowKeywordsOnNewLine": ["else"],
+
+    // http://jscs.info/rule/disallowMixedSpacesAndTabs
+    "disallowMixedSpacesAndTabs": true,
+
+    // http://jscs.info/rule/disallowMultipleVarDecl
+    "disallowMultipleVarDecl": "exceptUndefined",
+
+    // http://jscs.info/rule/disallowNewlineBeforeBlockStatements
+    "disallowNewlineBeforeBlockStatements": true,
+
+    // http://jscs.info/rule/disallowQuotedKeysInObjects
+    "disallowQuotedKeysInObjects": true,
+
+    // http://jscs.info/rule/disallowSpaceAfterObjectKeys
+    "disallowSpaceAfterObjectKeys": true,
+
+    // http://jscs.info/rule/disallowSpaceAfterPrefixUnaryOperators
+    "disallowSpaceAfterPrefixUnaryOperators": true,
+
+    // http://jscs.info/rule/disallowSpacesInFunction
+    "disallowSpacesInFunction": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    // http://jscs.info/rule/disallowSpacesInsideParentheses
+    "disallowSpacesInsideParentheses": true,
+
+    // http://jscs.info/rule/disallowTrailingWhitespace
+    "disallowTrailingWhitespace": true,
+
+    // http://jscs.info/rule/maximumLineLength
+    "maximumLineLength": {
+        "value": 160,
+        "allExcept": ["comments", "regex"]
+    },
+
+    // http://jscs.info/rule/requireCapitalizedConstructors
+    "requireCapitalizedConstructors": true,
+
+    // http://jscs.info/rule/requireCurlyBraces
+    "requireCurlyBraces": [
+        "if",
+        "else",
+        "for",
+        "while",
+        "do",
+        "try",
+        "catch"
+    ],
+
+    // http://jscs.info/rule/requireSpaceAfterKeywords
+    "requireSpaceAfterKeywords": [
+        "else",
+        "for",
+        "while",
+        "do",
+        "case",
+        "return",
+        "typeof"
+    ],
+
+    // http://jscs.info/rule/requireSpaceBeforeKeywords
+    "requireSpaceBeforeKeywords": [
+        "else"
+    ],
+
+    // http://jscs.info/rule/disallowSpaceAfterKeywords
+    "disallowSpaceAfterKeywords": [
+        "if",
+        "switch",
+        "catch"
+    ],
+
+    // http://jscs.info/rule/requireSpaceBeforeBinaryOperators
+    "requireSpaceBeforeBinaryOperators": true,
+
+    // http://jscs.info/rule/requireSpaceAfterBinaryOperators
+    "requireSpaceAfterBinaryOperators": true,
+
+    // http://jscs.info/rule/requireSpaceBeforeBlockStatements
+    "requireSpaceBeforeBlockStatements": true,
+
+    // http://jscs.info/rule/requireSpaceBeforeObjectValues
+    "requireSpaceBeforeObjectValues": true,
+
+    // http://jscs.info/rule/validateIndentation
+    "validateIndentation": "\t",
+
+    // http://jscs.info/rule/validateLineBreaks
+    "validateLineBreaks": "LF",
+
+    // http://jscs.info/rule/validateQuoteMarks
+    "validateQuoteMarks": "'",
+
+    // http://jscs.info/rule/disallowMultipleLineStrings
+    "disallowMultipleLineStrings": true,
+
+    // http://jscs.info/rule/disallowMultipleSpaces
+    "disallowMultipleSpaces": true,
+
+    // http://jscs.info/rule/disallowMultipleLineBreaks
+    "disallowMultipleLineBreaks": true,
+
+    // http://jscs.info/rule/disallowSpacesInFunctionExpression
+    "disallowSpacesInFunctionExpression": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    // http://jscs.info/rule/disallowSpacesInFunctionDeclaration
+    "disallowSpacesInFunctionDeclaration": {
+        "beforeOpeningRoundBrace": true
+    },
+
+    // http://jscs.info/rule/requireDotNotation
+    "requireDotNotation": false,
+
+    // http://jscs.info/rule/requireSemicolons
+    "requireSemicolons": true,
+
+    // http://jscs.info/rule/disallowEmptyBlocks
+    "disallowEmptyBlocks": true,
+
+    // http://jscs.info/rule/disallowPaddingNewLinesBeforeExport
+    "disallowPaddingNewLinesBeforeExport": true,
+
+    // http://jscs.info/rule/disallowSpaceBeforeSemicolon
+    "disallowSpaceBeforeSemicolon": true,
+
+    // http://jscs.info/rule/validateParameterSeparator
+    "validateParameterSeparator": ", ",
+
+    // http://jscs.info/rule/validateAlignedFunctionParameters
+    "validateAlignedFunctionParameters": true,
+
+    // http://jscs.info/rule/requireLineFeedAtFileEnd
+    "requireLineFeedAtFileEnd": true
+}
