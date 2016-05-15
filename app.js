@@ -5,6 +5,7 @@ var express = require('express');
 var path = require('path');
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
+var _ = require('lodash');
 var x = 20;
 var y = 20;
 var xDirection = 1;
